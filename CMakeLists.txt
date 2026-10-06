@@ -10,8 +10,12 @@ qt_standard_project_setup()
 
 qt_add_executable(helloworld
     src/main.cpp
-    src/calculatorwidget.cpp
-    src/calculatorwidget.h
+    src/mainwindow.cpp
+    src/mainwindow.h
+    src/content.cpp
+    src/content.h
+    src/fivephasewidget.cpp
+    src/fivephasewidget.h
 )
 
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT helloworld)
