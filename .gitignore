@@ -1,0 +1,11 @@
+/build/
+/build-vs/
+/out/
+CMakeUserPresets.json
+*.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+.qt/
+.cache/
